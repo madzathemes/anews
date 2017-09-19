@@ -396,7 +396,7 @@ Kirki::add_field( 'mt_colors_footer_bottom', array(
 
 
 
-function mytheme_kirki_fields( $fields ) {
+function mytheme_kirki_fieldsz( $fields ) {
 
   $fields[] =  array(
     'type'        => 'background',
@@ -492,7 +492,7 @@ function mytheme_kirki_fields( $fields ) {
 
   return $fields;
 }
-add_filter( 'kirki/fields', 'mytheme_kirki_fields' );
+add_filter( 'kirki/fields', 'mytheme_kirki_fieldsz' );
 
 
 
