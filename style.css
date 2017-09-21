@@ -5556,3 +5556,15 @@ img.mfp-img {
 .mtc-d-a {
   display: inline-block;
 }
+
+.entry-content:before {
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+.entry-content:after {
+  clear: both;
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
