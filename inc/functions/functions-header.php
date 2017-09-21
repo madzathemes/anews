@@ -388,7 +388,7 @@ function anews_logo() {
 		</a>
 	<?php } else { ?>
 		<a class="logo logo-header"  href="<?php echo esc_url(home_url('/'));?>">
-			<img src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" width="108" height="15" alt="<?php echo the_title(); ?>" />
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" width="168" height="78" alt="<?php echo the_title(); ?>" />
 		</a>
 	<?php }
 }

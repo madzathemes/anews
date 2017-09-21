@@ -91,7 +91,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()));
     <?php if ( false == get_theme_mod( 't_p_share_on_facebook', false ) ) { $t_p_share_on_facebook = esc_html__("Share on Facebook", "anews");  } else { $t_p_share_on_facebook = get_theme_mod( 't_p_share_on_facebook' ); } ?>
     <?php if ( false == get_theme_mod( 't_p_share_on_twitter', false ) ) { $t_p_share_on_twitter = esc_html__("Tweet on Twitter", "anews");  } else { $t_p_share_on_twitter = get_theme_mod( 't_p_share_on_twitter' ); } ?>
       <?php if($share_top == "no"){} else if($share_top == "yes"){ ?>
-        <?php if (class_exists('md_walker') ) { ?>
+        <?php if (function_exists('magazin_text_domain')) { ?>
           <ul class="share top">
           <li class="share-facebook"><a class="mt-radius" href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>" target="_blank"><span><?php echo esc_html($t_p_share_on_facebook); ?></span></a></li>
           <?php $input = get_the_title().' '.get_the_permalink(); $title = str_replace( ' ', '+', $input ); ?>
@@ -106,7 +106,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()));
         </ul>
       <?php } ?>
     <?php } else if ( true == get_theme_mod( 'mt_post_top_share', true ) ) {  ?>
-      <?php if (class_exists('md_walker') ) { ?>
+      <?php if (function_exists('magazin_text_domain')) { ?>
         <ul class="share top">
           <li class="share-facebook"><a class="mt-radius" href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>" target="_blank"><span><?php echo esc_html($t_p_share_on_facebook); ?></span></a></li>
           <?php $input = get_the_title().' '.get_the_permalink(); $title = str_replace( ' ', '+', $input ); ?>
