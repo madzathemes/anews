@@ -3368,10 +3368,10 @@ opacity: 0.7
   float:none;
 }
 .footer div a {
-  color: #222;
+  color: #d4d4d4;
 }
 .footer-bottom, .footer-top {
-  background: whitesmoke;
+  background: #222;
 }
 .footer-top {
   padding-bottom: 0px;
@@ -3380,7 +3380,7 @@ opacity: 0.7
   position: relative;
 }
 .footer-top p{
-  color: #aeaeae;
+  color: #d4d4d4;
   font-size: 14px;
   display: inline-block;
 }
@@ -3397,7 +3397,7 @@ opacity: 0.7
 .footer .footer-bottom p{
   font-size: 13px;
   line-height: 1;
-  color: #222;
+  color: #d4d4d4;
   display: inline-block;
   padding: 0px 0px;
 }
