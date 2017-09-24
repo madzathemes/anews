@@ -985,7 +985,6 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
   white-space: pre-line;
   padding: 10px 0px 10px 15px;
   margin-bottom: 10px;
-  color: #111;
 }
 .megamenu-span:hover h4 {
   text-decoration: underline;
@@ -5306,6 +5305,9 @@ img.mfp-img {
 }
 .mt-bar-dark .megamenu-span h4 {
   color: white;
+}
+.mt-bar-light .megamenu-span h4 {
+  color: #222;
 }
 
 .mt-bar-dark { color: white !important; }
