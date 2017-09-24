@@ -3425,8 +3425,8 @@ opacity: 0.7
 .footer .social {
   list-style: none;
   text-align: center;
-  margin: 40px -10px 0px 0px;
-  padding: 0px 0px 5px;
+  margin: 30px 0px 20px 0px;
+  padding: 0px 0px 0px;
 }
 .footer .social li {
   display: inline-block;
@@ -3450,6 +3450,9 @@ opacity: 0.7
 }
 .mt-subscribe-footer{
   margin-top: 45px;
+}
+.footer-copyright {
+  padding-bottom: 10px;
 }
 .mt-s-i {
   width: 65%;
