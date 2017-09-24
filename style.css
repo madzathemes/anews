@@ -985,6 +985,7 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
   white-space: pre-line;
   padding: 10px 0px 10px 15px;
   margin-bottom: 10px;
+  color: #111;
 }
 .megamenu-span:hover h4 {
   text-decoration: underline;
