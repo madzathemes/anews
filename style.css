@@ -2486,7 +2486,7 @@ opacity: 0.7
 }
 .grid-post h2 {
   color: white;
-  padding: 5px 0px 0px;
+  padding: 10px 0px 0px;
   text-shadow: 0px 0px 100px rgba(0, 0, 0, 1);
   font-weight: 900;
 }
@@ -2505,7 +2505,7 @@ opacity: 0.7
   font-weight: 700;
   font-size: 11px;
   padding: 2px 6px;
-  color: #222;
+  color: #fff;
 }
 .grid-post.style-1.nr-3 .post-info,
 .grid-post.style-1.nr-4 .post-info {
@@ -5389,7 +5389,7 @@ img.mfp-img {
 .mt-tc-color .poster-cat span,
 .mt-tc-color .number.mt-theme-background,
 .mt-tc-color .page-numbers:hover, .mt-tc-color .page-numbers.current, .mt-tc-color .page-numbers.current:hover {
-  background: white;
+  background: #e51676;
 }
 .mt-tc-color .mt-smart-menu {
   background: #222;
