@@ -959,6 +959,7 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
   left: 15px;
   z-index: 999;
   overflow: hidden;
+  background: none!important;
 }
 .df-is-megamenu ul .poster-cat span {
   color: #fff;
