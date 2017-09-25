@@ -51,15 +51,15 @@ div.sf-menu ul ul li.menu-item a:hover,
 .mt-subscribe-footer input.mt-s-b:hover,
 .poster-carousel-trending .poster-prev:hover,
 .poster-carousel-trending .poster-next:hover {
-  background: #ffd602;
-  color: #222
+  background: #e51676;
+  color: #fff;
 }
 .mt-theme-text,
 a:hover,
 .nav-single .next div:after,
 .nav-single .previous div:before,
 .mt-tc-color a:hover {
-  color: #ffd602;
+  color: #e51676;
 }
 
 .mt-radius-5 .mt-radius,
