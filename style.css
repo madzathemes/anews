@@ -57,9 +57,7 @@ div.sf-menu ul ul li.menu-item a:hover,
 .mt-theme-text,
 a:hover,
 .nav-single .next div:after,
-.nav-single .previous div:before,
-.mt-tc-color a:hover :not(.grid-post),
-.mt-tc-color .poster a:hover h2 {
+.nav-single .previous div:before{
   color: #e51676;
 }
 
