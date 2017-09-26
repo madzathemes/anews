@@ -2526,7 +2526,7 @@ opacity: 0.7
 .grid-post.style-2.nr-2 {
   margin-left: 0;
 }
-.grid-post a:hover {
+.grid-post a:hover h2 {
   color:white;
 }
 /* SINGLE */
