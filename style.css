@@ -58,7 +58,9 @@ div.sf-menu ul ul li.menu-item a:hover,
 a:hover,
 .nav-single .next div:after,
 .nav-single .previous div:before,
-.mt-tc-color .poster a:hover h2 {
+.mt-tc-color .poster a:hover h2,
+.mt-tc-color a:hover,
+.mt-tc-color a:hover h2 {
   color: #e51676;
 }
 
