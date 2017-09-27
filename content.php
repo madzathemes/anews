@@ -7,7 +7,7 @@ $image_settings = get_post_meta(get_the_ID(), "magazin_post_image", true);
 $options = get_option("anews_theme_options");
 
 if(is_single()) { $more = 1; }?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> class="mt-blog-post <?php if ( is_sticky() and !is_single()){ ?> post_sticky <?php } ?>">
+<article id="post-<?php the_ID(); ?>" class="mt-blog-post <?php if ( is_sticky() and !is_single()){ ?> post_sticky <?php } ?>" <?php post_class(); ?>>
 
 	<?php if( ! is_search()) { ?>
 		<?php  if ( has_post_thumbnail() ) { ?>
@@ -38,7 +38,7 @@ if(is_single()) { $more = 1; }?>
 			<h2 class="entry-title mt-blog-post-title">
 				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'anews' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php echo get_the_title();  ?></a>
 			</h2>
-			<div class="mt-post-meta"><?php echo anews_entry_meta(); ?></div>
+			<div class="mt-post-meta mt-radius"><?php echo anews_entry_meta(); ?></div>
 		</header>
 	<?php } ?>
 

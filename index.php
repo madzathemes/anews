@@ -27,7 +27,7 @@ if ($mt_layout == "left") {
 			<?php get_template_part( 'content', 'none' ); ?>
 		<?php endif; ?>
 
-		<?php anews_paging_nav(); ?>
+		<?php the_posts_pagination(); ?>
 
 	</div>
 

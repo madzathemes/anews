@@ -622,12 +622,19 @@ a[href^=tel]{
 div.alignnone {
     max-width: 100%!important;
 }
+code,kbd,pre,samp {
+  overflow: auto;
+  background: #f5f5f5;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+  max-width: 100%;
+}
 pre {
-    overflow: auto;
-    background: #f5f5f5;
-    padding: 20px;
-    margin-top: 0px;
-    margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 select {
   width: 100%;
@@ -1445,7 +1452,8 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 /* SIDEBAR */
 
 /* HEADING */
-h2.heading {
+h2.heading,
+.pagination > h2 {
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -1453,7 +1461,8 @@ h2.heading {
   padding-bottom: 20px;
   padding-top: 0px;
 }
-h2.heading.heading-left {
+h2.heading.heading-left,
+.pagination > h2 {
   text-align: left;
 }
 h2.heading.heading-right {
@@ -1465,13 +1474,15 @@ h2.heading.heading-left span {
 h2.heading.heading-right span {
   padding: 5px 10px;
 }
-h2.heading span {
+h2.heading span,
+.pagination > h2 {
   z-index: 2;
   position: relative;
   padding: 5px 10px;
   letter-spacing: 1px;
   font-weight: 700;
   background: #fff;
+  display: inline-block;
 }
 .title_bg_fix h2.heading span {
   background: #fff;
@@ -1608,7 +1619,6 @@ h2.heading span {
 .poster .number {
   width: 20px;
   height: 20px;
-  color: #222;
   font-size: 11px;
   font-weight: 900;
   text-align: center;
@@ -1741,7 +1751,7 @@ h2.heading span {
   text-transform: uppercase;
   font-size: 11px;
   font-weight: bold;
-  background: #ffd602;
+  background: #e51676;
   color: #fff;
   padding: 2px 6px;
 }
@@ -3293,7 +3303,7 @@ opacity: 0.7
   color: #949494;
 }
 .post_sticky {
-  padding: 20px 40px 40px;
+  padding: 40px;
   background: #fff;
   margin-bottom: 40px;
 }
@@ -3752,6 +3762,9 @@ opacity: 0.7
   .panel-grid-cell {
     width: 100% !important;
   }
+  .panel-grid.panel-no-style, .panel-grid.panel-has-style > .panel-row-style {
+    display: block
+  }
   .post-gallery-nav .slick-arrow {
     display: none!important;
   }
@@ -4141,7 +4154,10 @@ ul.page-numbers li {
 
 .page-numbers:hover { text-decoration: none }
 
-.mt-pagepagination p,
+.single .mt-pagepagination {
+  padding-top: 20px;
+}
+.mt-pagepagination span,
 .page-links {
   padding: 20px 0px;
   font-size: 14px !important;
@@ -4169,7 +4185,6 @@ ul.page-numbers li {
 }
 .pagination {
   margin-bottom: 40px;
-  text-align: center;
 }
 
 .pagination > a,
@@ -5602,7 +5617,7 @@ img.mfp-img {
 .mt-post-btn {
   padding: 12px 18px;
   color: white;
-  background: #ff6226;
+  background: #e51676;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
@@ -5627,12 +5642,12 @@ code > br {
   font-size: 13px;
   color: #7a7b86;
   margin-bottom: 10px;
-  background: #f7f5f7;
+  background: #fff;
   display: inline-block;
   padding: 10px 15px;
 }
 .post_sticky .mt-post-meta {
-  background: white;
+  background: #f6f5f6;
 }
 .mt-post-meta a {
   color: #7a7b86;
@@ -5661,3 +5676,36 @@ code > br {
 .mt-icon-by:before {
   content: "\e971";
 }
+
+/* POST NAV */
+.nav-previous {
+  float:left;
+}
+.nav-next {
+  float:right;
+}
+.nav-links a {
+  background: #f5f5f5;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.nav-links a:hover {
+  color: white;
+  background: #e51676;
+}
+.nav-links > span {
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  background: #e51676 !important;
+  color: white !important;
+}
+.search .navigation.pagination {
+  margin: 20px 0 -40px;

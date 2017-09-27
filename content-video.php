@@ -54,7 +54,7 @@ $allowed_html = array('iframe' => array( 'id' => array(),'width' => array(), 'al
 	<header class="entry-header">
 		<h2 class="entry-title mt-blog-post-title"><a href="<?php the_permalink(); ?>"><?php echo get_the_title();  ?></a></h2>
 	</header>
-	<div class="mt-post-meta"><?php echo anews_entry_meta(); ?></div>
+	<div class="mt-post-meta mt-radius"><?php echo anews_entry_meta(); ?></div>
 	<?php } ?>
 
 	<?php if ( !is_search() ) { ?>

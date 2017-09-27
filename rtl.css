@@ -650,7 +650,7 @@ blockquote:before {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-.sticky {}
+
 .entry-content blockquote {
     font-size: 21px !important;
     font-weight: 800;
@@ -761,8 +761,9 @@ table {
   padding-bottom: 0px;
 }
 .widget label.screen-reader-text { display: none; }
-.gallery-caption{}
-.bypostauthor{}
+.gallery-caption,
+.bypostauthor,
+.sticky { position: relative; }
 
 
 /* Layouts */
