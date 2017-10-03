@@ -704,6 +704,7 @@ blockquote:before {
   padding: 0px;
   margin-bottom: 20px;
   display: inline-block;
+  max-width: 100%;
 }
 .alignright {
   display: inline;
