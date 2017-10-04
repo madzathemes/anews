@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*-----------------------------------------------------------------------------------
-  	Version: 1.0
+  	Version: 1.1
     Theme Name: Anews
     Theme URI: anews.madzathemes.com
     Description: Magazine / Blog
@@ -1986,7 +1986,8 @@ h2.heading span,
 .poster:hover h2,
 .poster-small:hover h4,
 .poster-small-bottom:hover h4{
-  background: #ffd602;
+  background: #e51676;
+  color: white;
 }
 .poster-content a,
 .poster-content-wrap a {
